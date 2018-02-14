@@ -1,5 +1,5 @@
-## What you will need
+## Amire szükséged lesz
 
-### Hardware
+### Hardver
 
 - Raspberry Pi
