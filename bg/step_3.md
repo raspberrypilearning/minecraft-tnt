@@ -1,9 +1,9 @@
-## Enter the Minecraft world
+## Влез в света на Minecraft
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+1. Отворете Minecraft Pi от главното меню. Започнете игра и създайте нов свят.
 
-2. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+2. Разходете се с помощта на клавишите WSAD на клавиатурата. Използвайте пространство, за да скочите, и двойно докосвайте пространство, за да летите.
 
-3. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+3. Натиснете Tab и клавиатурата, за да освободите курсора на мишката и отворете Python 3 от главното меню.
 
-4. Move your windows around so Minecraft and Python are side-by-side.
+4. Преместете прозорците си наоколо, така че Minecraft и Python са разположени една до друга.
