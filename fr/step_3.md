@@ -6,4 +6,4 @@
 
 3. Appuyez sur Tab et le clavier pour libérer le curseur de votre souris, et ouvrez Python 3 à partir du menu principal.
 
-4. Move your windows around so Minecraft and Python are side-by-side.
+4. Déplacez vos fenêtres pour que Minecraft et Python soient côte à côte.
