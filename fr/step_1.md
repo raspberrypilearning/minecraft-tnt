@@ -1,3 +1,3 @@
-## Introduction
+## introduction
 
-Navigate the world of Minecraft: Pi, learn to create with code and blow things up with TNT
+Naviguez dans le monde de Minecraft: Pi, apprenez à créer avec du code et faites exploser les choses avec TNT
