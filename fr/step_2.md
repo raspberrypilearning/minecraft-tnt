@@ -1,5 +1,5 @@
-## What you will need
+## Ce dont tu auras besoin
 
-### Hardware
+### Matériel
 
-- Raspberry Pi
+- Tarte aux framboises
