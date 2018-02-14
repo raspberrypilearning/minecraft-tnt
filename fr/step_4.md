@@ -1,38 +1,33 @@
-## Controlling Minecraft with Python
+## Contrôler Minecraft avec Python
 
-1. Open a new Python window and enter the following code:
+1. Ouvrez une nouvelle fenêtre Python et entrez le code suivant:
     
     ```python
-from mcpi.minecraft import Minecraft
-
-mc = Minecraft.create()
-
-mc.postToChat("Hello world")
+à partir de mcpi.minecraft importer Minecraft mc = Minecraft.create () mc.postToChat ("Bonjour tout le monde")
 ```
 
-2. Run the code with `F5` and you should see the message "Hello world" appear in the Minecraft window.
+2. Exécutez le code avec `F5` et vous devriez voir le message "Hello world" apparaître dans la fenêtre Minecraft.
 
-3. Add the following lines to your code:
+3. Ajoutez les lignes suivantes à votre code:
     
     ```python
-x, y, z = mc.player.getPos()
-mc.setBlock(x+1, y, z, 1)
+x, y, z = mc.player.getPos () mc.setBloc (x + 1, y, z, 1)
 ```
 
-4. Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+4. Exécutez le code et vous devriez voir un bloc de pierre apparaître près de votre lecteur. Si ce n'est pas en face de vous, essayez de regarder autour de vous.
 
-5. Change the `1` at the end of the `setBlock` line to a `2`:
+5. Changer le `1` à la fin du `setBlock` ligne à un `2`:
     
     ```python
-mc.setBlock(x+1, y, z, 2)
+mc.setBlock (x + 1, y, z, 2)
 ```
 
-6. You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+6. Vous devriez maintenant voir un bloc d'herbe apparaître. Essayez de changer à nouveau le numéro et voyez quel type de bloc est placé.
 
-7. Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+7. Essayez de changer `setBlock` à `setBlocks` pour construire un cube 10x10x10 plutôt qu'un seul bloc:
     
     ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
+mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
 ```
 
-You should see a large solid cube of stone appear!
+Vous devriez voir apparaître un grand cube de pierre solide!
