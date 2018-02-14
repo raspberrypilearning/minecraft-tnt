@@ -1,11 +1,11 @@
 ## TNT
 
-The block ID for TNT is `46`. There are two types of TNT: unexplosive TNt and explosive TNT. You want explosive TNT.
+ID блока за TNT е `46`. Съществуват два вида TNT: не експлозивен TNt и експлозивен TNT. Искаш експлозивен TNT.
 
-1. Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+1. Изградете твърд куб на TNT. За да получите експлозивна TNT, трябва да добавите `1` до края на вашия `setBlocks` ред:
     
     ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
+mc.setBlocks (х + 1, у + 1, z + 1, х + 11, у 11, z + 11, 46, 1)
 ```
 
-2. Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
+2. Отидете до куба на TNT и го удряйте с меча си, като щракнете с десния бутон на мишката. Това ще активира TNT. Застанете назад и гледайте шоуто!
