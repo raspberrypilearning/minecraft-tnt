@@ -1,9 +1,9 @@
-## Enter the Minecraft world
+## جهان دفاعی را وارد کنید
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+1. Minecraft Pi را از منوی اصلی باز کنید. یک بازی را شروع کنید و یک دنیای جدید ایجاد کنید.
 
-2. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+2. با استفاده از کلیدهای WSAD روی صفحه کلید، به اطراف بروید. استفاده از فضا برای پرش، و دو برابر فضای پرواز برای پرواز.
 
-3. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+3. دکمه Tab و صفحه کلید را فشار دهید تا دکمه موس خود را فشار داده و Python 3 را از منوی اصلی باز کنید.
 
-4. Move your windows around so Minecraft and Python are side-by-side.
+4. پنجره های خود را در اطراف حرکت دهید تا Minecraft و Python کنار یکدیگر باشند.
