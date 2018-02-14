@@ -1,24 +1,24 @@
 ---
-title: Modding Minecraft with Python
-hero_image: images/banner.png
-description: Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
-theme: red
+title: کمپین مودینگ با پایتون
+hero_image: images / banner.png
+description: حرکت به دنیای Minecraft Pi، یاد بگیرید با کد ایجاد کنید و با TNT چیزهای مختلف را بکشید
+theme: سرخ
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0
-interests: "games"
-technologies: "python, minecraft"
+curriculum: برنامه نویسی 0
+interests: "بازی ها"
+technologies: "پایتون، کمیته مبارزه با سانسور"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: معرفی
   - 
-    title: What you will need
+    title: آنچه شما نیاز دارید
   - 
-    title: Enter the Minecraft world
+    title: جهان دفاعی را وارد کنید
   - 
-    title: Controlling Minecraft with Python
+    title: کنترل کمیته مبارزه با مواد مخدر با پایتون
   - 
     title: TNT
