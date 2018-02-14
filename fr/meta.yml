@@ -1,24 +1,24 @@
 ---
-title: Modding Minecraft with Python
-hero_image: images/banner.png
-description: Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
-theme: red
+title: Modding Minecraft avec Python
+hero_image: images / banner.png
+description: Naviguez dans le monde de Minecraft Pi, apprenez à créer avec du code et faites exploser les choses avec TNT
+theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0
-interests: "games"
+curriculum: programmation-0
+interests: "Jeux"
 technologies: "python, minecraft"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: introduction
   - 
-    title: What you will need
+    title: Ce dont tu auras besoin
   - 
-    title: Enter the Minecraft world
+    title: Entrez dans le monde Minecraft
   - 
-    title: Controlling Minecraft with Python
+    title: Contrôler Minecraft avec Python
   - 
     title: TNT
