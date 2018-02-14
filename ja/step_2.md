@@ -1,5 +1,5 @@
-## What you will need
+## あなたが必要とするもの
 
-### Hardware
+### ハードウェア
 
-- Raspberry Pi
+- ラズベリーパイ
