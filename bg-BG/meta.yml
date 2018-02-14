@@ -1,0 +1,24 @@
+---
+title: Модифициране на Minecraft с Python
+hero_image: изображения / banner.png
+description: Навигирайте в света на Minecraft Pi, научете се да създавате с код и да размахвате нещата с TNT
+theme: червен
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: програмиране-0
+interests: "игри"
+technologies: "питън, миньорство"
+site_areas: ""
+steps:
+  - 
+    title: Въведение
+  - 
+    title: Какво ще ви трябва
+  - 
+    title: Влез в света на Minecraft
+  - 
+    title: Контролиране на Minecraft с Python
+  - 
+    title: TNT
