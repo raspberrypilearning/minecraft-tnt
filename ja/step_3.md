@@ -1,9 +1,9 @@
-## Enter the Minecraft world
+## Minecraftの世界に入りなさい
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+1. メインメニューからMinecraft Piを開きます。 ゲームを開始して新しい世界を作りましょう。
 
-2. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+2. キーボードのWSADキーを使用して歩き回りましょう。 スペースを使ってジャンプし、ダブルタップして飛行します。
 
-3. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+3. Tabとキーボードを押してマウスカーソルを離し、メインメニューからPython 3を開きます。
 
-4. Move your windows around so Minecraft and Python are side-by-side.
+4. MinecraftとPythonが並んでいるようにウィンドウを移動してください。
