@@ -1,3 +1,3 @@
-## Introduction
+## معرفی
 
-Navigate the world of Minecraft: Pi, learn to create with code and blow things up with TNT
+حرکت به جهان از کمیته مبارزه با سانسور: Pi، یاد بگیرید با کد ایجاد کنید و چیزهایی را با TNT بکشید
