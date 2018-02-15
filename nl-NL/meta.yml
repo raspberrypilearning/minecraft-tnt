@@ -1,5 +1,5 @@
 ---
-title: Moderen van Minecraft met Python
+title: Aanpassen van Minecraft met Python
 hero_image: images / banner.png
 description: Navigeer door de wereld van Minecraft Pi, leer met code te creëren en blaas dingen op met TNT
 theme: rood
@@ -13,11 +13,11 @@ technologies: "python, minecraft"
 site_areas: ""
 steps:
   - 
-    title: Invoering
+    title: Introductie
   - 
-    title: Wat je nodig zult hebben
+    title: Wat heb je nodig
   - 
-    title: Betreed de Minecraft-wereld
+    title: Ga de Minecraft-wereld binnen
   - 
     title: Het besturen van Minecraft met Python
   - 
