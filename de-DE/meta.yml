@@ -1,14 +1,14 @@
 ---
-title: Modding Minecraft mit Python
-hero_image: Bilder / Banner.png
+title: Minecraft mit Python verändern
+hero_image: images/banner.png
 description: Navigiere in der Welt von Minecraft Pi, lerne, mit Code zu erstellen und mit TNT in die Luft zu jagen
 theme: rot
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: Programmierung-0
-interests: "Spiele"
+curriculum: programming-0
+interests: "games"
 technologies: "Python, Minecraft"
 site_areas: ""
 steps:
