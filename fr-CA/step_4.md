@@ -27,12 +27,12 @@ mc.setBlock(x+1, y, z, 1)
 mc.setBlock(x+1, y, z, 2)
 ```
 
-6. Vous devriez maintenant voir un bloc d'herbe apparaître. Essayez de changer à nouveau le numéro et voyez quel type de bloc est placé.
+6. Vous devriez maintenant voir un bloc de gazon apparaître. Essayez de changer le nombre à nouveau et voyez quel type de bloc est créé.
 
-7. Essayez de changer `setBlock` à `setBlocks` pour construire un cube 10x10x10 plutôt qu'un seul bloc:
+7. Essayez de changer `setBlock` pour `setBlocks` pour créer un cube de 10x10x10 blocs plutôt qu'un bloc individuel:
     
     ```python
-mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
 ```
 
-Vous devriez voir apparaître un grand cube de pierre solide!
+Vous devriez maintenant voir un gros cube de pierre apparaître!
