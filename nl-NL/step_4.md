@@ -10,15 +10,17 @@ mc = Minecraft.create ()
 mc.postToChat ("Hello world")
 ```
 
-2. Voer de code uit met `F5` en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
+2. Voer het programma uit door op `F5` te drukken en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
 
-3. Voeg de volgende regels toe aan uw code:
+3. Voeg de volgende regels toe aan uw programma:
     
     ```python
-x, y, z = mc.player.getPos () mc.setBlock (x + 1, y, z, 1)
+x, y, z = mc.player.getPos () 
+
+mc.setBlock (x + 1, y, z, 1)
 ```
 
-4. Voer de code uit en je zou een steenblok in de buurt van je speler moeten zien verschijnen. Als het niet voor je is, kijk eens rond.
+4. Voer het programma uit (F5) en je zou een steenblok in de buurt van je speler moeten zien verschijnen. Als het niet voor je is, kijk even rond.
 
 5. Wijzig de `1` aan het einde van de `setBlock` regel naar a `2`:
     
