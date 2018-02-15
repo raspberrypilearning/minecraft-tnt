@@ -1,5 +1,5 @@
-## Ce dont tu auras besoin
+## Ce dont vous aurez besoin
 
 ### Matériel
 
-- Tarte aux framboises
+- Raspberry Pi
