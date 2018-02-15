@@ -1,4 +1,4 @@
-## Controllo di Minecraft con Python
+## Controllare Minecraft con Python
 
 1. Apri una nuova finestra Python e inserisci il seguente codice:
     
