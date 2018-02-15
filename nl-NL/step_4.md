@@ -3,7 +3,11 @@
 1. Open een nieuw Python-venster en voer de volgende code in:
     
     ```python
-van mcpi.minecraft import Minecraft mc = Minecraft.create () mc.postToChat ("Hello world")
+from mcpi.minecraft import Minecraft 
+
+mc = Minecraft.create () 
+
+mc.postToChat ("Hello world")
 ```
 
 2. Voer de code uit met `F5` en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
