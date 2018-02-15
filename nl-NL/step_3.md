@@ -4,6 +4,6 @@
 
 2. Loop rond met behulp van de WSAD-toetsen op het toetsenbord. Gebruik de spatiebalk om te springen en druk twee maal snel op de spatiebalk om te vliegen.
 
-3. Druk op Tab en het toetsenbord om je muisaanwijzer los te laten en open Python 3 vanuit het hoofdmenu.
+3. Druk op Tab op het toetsenbord om je muisaanwijzer los te koppelen van het Minecraft venster en open Python 3 vanuit het hoofdmenu.
 
-4. Verplaats je ramen zodat Minecraft en Python naast elkaar staan.
+4. Verplaats je vensters, zodat Minecraft en Python naast elkaar staan.
