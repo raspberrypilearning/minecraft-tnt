@@ -1,9 +1,13 @@
-## Minecraft mit Python kontrollieren
+## Minecraft mit Python steuern
 
-1. Öffnen Sie ein neues Python-Fenster und geben Sie folgenden Code ein:
+1. Öffne ein neues Python-Fenster und gib folgenden Code ein:
     
     ```python
-von mcpi.minecraft import Minecraft mc = Minecraft.create () mc.postToChat ("Hallo Welt")
+from mcpi.minecraft import Minecraft
+
+mc = Minecraft.create()
+
+mc.postToChat("Hello world")
 ```
 
 2. Führen Sie den Code mit `F5` aus und du solltest die Nachricht "Hello world" im Minecraft Fenster sehen.
