@@ -3,7 +3,11 @@
 1. Ouvrez une nouvelle fenêtre Python et entrez le code suivant:
     
     ```python
-à partir de mcpi.minecraft importer Minecraft mc = Minecraft.create () mc.postToChat ("Bonjour tout le monde")
+from mcpi.minecraft import Minecraft
+
+mc = Minecraft.create()
+
+mc.postToChat("Bonjour à tous")
 ```
 
 2. Exécutez le code avec `F5` et vous devriez voir le message "Hello world" apparaître dans la fenêtre Minecraft.
