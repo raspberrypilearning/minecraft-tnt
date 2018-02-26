@@ -1,0 +1,24 @@
+---
+title: PythonでMinecraftを修正する
+hero_image: images / banner.png
+description: Minecraft Piの世界を探索し、コードで作成し、TNTで物事を爆破する方法を学ぶ
+theme: 赤
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: プログラミング -  0
+interests: "ゲーム"
+technologies: "パイソン、ミニクラフト"
+site_areas: ""
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: Minecraftの世界に入りなさい
+  - 
+    title: PythonでMinecraftを制御する
+  - 
+    title: TNT

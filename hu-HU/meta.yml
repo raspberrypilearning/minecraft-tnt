@@ -1,0 +1,24 @@
+---
+title: Modding Minecraft és Python
+hero_image: images / banner.png
+description: Navigáljon az Minecraft Pi világába, megtanuljon létrehozni a kóddal és fújni a dolgokat a TNT-vel
+theme: piros
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programozás-0
+interests: "játékok"
+technologies: "python, minecraft"
+site_areas: ""
+steps:
+  - 
+    title: Bevezetés
+  - 
+    title: Amire szükséged lesz
+  - 
+    title: Adja meg az Minecraft világát
+  - 
+    title: Az Minecraft és a Python irányítása
+  - 
+    title: TNT

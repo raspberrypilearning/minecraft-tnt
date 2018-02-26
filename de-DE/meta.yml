@@ -1,0 +1,24 @@
+---
+title: Minecraft mit Python verändern
+hero_image: images/banner.png
+description: Navigiere in der Welt von Minecraft Pi, lerne, mit Code etwas zu erstellen und mit TNT in die Luft zu jagen
+theme: rot
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0
+interests: "games"
+technologies: "python, minecraft"
+site_areas: ""
+steps:
+  - 
+    title: Einleitung
+  - 
+    title: Was du brauchen wirst
+  - 
+    title: Komme in die Minecraft-Welt
+  - 
+    title: Minecraft mit Python steuern
+  - 
+    title: TNT

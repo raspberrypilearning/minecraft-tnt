@@ -1,0 +1,24 @@
+---
+title: کمپین مودینگ با پایتون
+hero_image: images / banner.png
+description: حرکت به دنیای Minecraft Pi، یاد بگیرید با کد ایجاد کنید و با TNT چیزهای مختلف را بکشید
+theme: سرخ
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: برنامه نویسی 0
+interests: "بازی ها"
+technologies: "پایتون، کمیته مبارزه با سانسور"
+site_areas: ""
+steps:
+  - 
+    title: معرفی
+  - 
+    title: آنچه شما نیاز دارید
+  - 
+    title: جهان دفاعی را وارد کنید
+  - 
+    title: کنترل کمیته مبارزه با مواد مخدر با پایتون
+  - 
+    title: TNT
