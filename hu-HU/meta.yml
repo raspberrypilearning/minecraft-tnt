@@ -1,0 +1,24 @@
+---
+title: Minecraft és Python
+hero_image: images / banner.png
+description: Utazz a Minecraft Pi világába és tanulj meg kódokkal robbantgatni
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0
+interests: "games"
+technologies: "python, minecraft"
+site_areas: ""
+steps:
+  - 
+    title: Bevezetés
+  - 
+    title: Amire szükséged lesz
+  - 
+    title: Lépj be a Minecraft világába
+  - 
+    title: Irányítsd a Minecraftot a Pythonnal
+  - 
+    title: TNT
