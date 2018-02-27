@@ -10,7 +10,7 @@ mc = Minecraft.create()
 mc.postToChat("Ciao")
 ```
 
-2. Esegui il codice con `F5` e dovresti vedere il messaggio "Ciao" nella finestra di Minecraft.
+2. Esegui il codice con `F5`. Il messaggio "Ciao" dovrebbe comparire nella finestra di Minecraft.
 
 3. Aggiungi le seguenti righe al tuo codice:
     
@@ -19,7 +19,7 @@ x, y, z = mc.player.getPos()
 mc.setBlock(x + 1, y, z, 1)
 ```
 
-4. Esegui il codice e dovresti vedere un blocco di pietra apparire vicino al tuo giocatore. Se non è di fronte a te, prova a guardarti intorno.
+4. Esegui il codice. Un blocco di pietra dovrebbe apparire vicino al tuo personaggio. Se il blocco non è di fronte a te, prova a guardarti intorno.
 
 5. Modificare il `1` alla fine della `setBlock` linea a un `2`:
     
