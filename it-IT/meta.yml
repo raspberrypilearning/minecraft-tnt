@@ -1,7 +1,7 @@
 ---
-title: Modificare Minecraft con Python
+title: Controllare Minecraft con Python
 hero_image: images/banner.png
-description: Naviga nel mondo di Minecraft Pi, impara a creare con il codice e fai esplodere le cose con il TNT
+description: 'Naviga nel mondo di Minecraft: Pi, impara a creare con i codici e fai esplodere le cose con il TNT'
 theme: red
 duration: 2
 listed: false
@@ -19,6 +19,6 @@ steps:
   - 
     title: Entra nel mondo di Minecraft
   - 
-    title: Controllo di Minecraft con Python
+    title: Controllare Minecraft con Python
   - 
     title: TNT
