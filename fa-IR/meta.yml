@@ -1,0 +1,24 @@
+---
+title: Minecraft با پایتون
+hero_image: images / banner.png
+description: حرکت در دنیای Minecraft Pi، ساختن با کد را یاد بگیرید و با TNT چیزهای مختلف را منفجر کنید
+theme: قرمز
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: برنامه نویسی 0
+interests: "بازی‌ها"
+technologies: "پایتون، minecraft"
+site_areas: ""
+steps:
+  - 
+    title: مقدمه
+  - 
+    title: آنچه شما نیاز دارید
+  - 
+    title: وارد دنیای Minecraft شوید
+  - 
+    title: کنترل Minecraft با پایتون
+  - 
+    title: TNT
