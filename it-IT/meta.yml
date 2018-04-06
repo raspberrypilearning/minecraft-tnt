@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0
-interests: "games"
-technologies: "python"
-site_areas: ""
-steps:
-  - 
-    title: Introduzione
-  - 
-    title: Di cosa avrai bisogno
-  - 
-    title: Entra nel mondo di Minecraft
-  - 
-    title: Controllare Minecraft con Python
-  - 
-    title: TNT
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: games
+technologies: python
+site_areas: jam
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Introduzione
+-
+title: Di cosa avrai bisogno
+-
+title: Entra nel mondo di Minecraft
+-
+title: Controllare Minecraft con Python
+-
+title: TNT
