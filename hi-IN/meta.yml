@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: प्रोग्रामिंग -0
-interests: "खेल"
-technologies: "अजगर, मिक्राफ्ट"
-site_areas: ""
-steps:
-  - 
-    title: परिचय
-  - 
-    title: तुम क्या आवश्यकता होगी
-  - 
-    title: Minecraft दुनिया दर्ज करें
-  - 
-    title: पायथन के साथ Minecraft नियंत्रण
-  - 
-    title: टीएनटी
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: games
+technologies: python
+site_areas: jam
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: परिचय
+-
+title: तुम क्या आवश्यकता होगी
+-
+title: Minecraft दुनिया दर्ज करें
+-
+title: पायथन के साथ Minecraft नियंत्रण
+-
+title: टीएनटी
