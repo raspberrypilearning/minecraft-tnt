@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: програмиране-0
-interests: "игри"
-technologies: "питън, миньорство"
-site_areas: ""
-steps:
-  - 
-    title: Въведение
-  - 
-    title: Какво ще ви трябва
-  - 
-    title: Влез в света на Minecraft
-  - 
-    title: Контролиране на Minecraft с Python
-  - 
-    title: TNT
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: games
+technologies: python
+site_areas: jam
+hardware: ''
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Въведение
+-
+title: Какво ще ви трябва
+-
+title: Влез в света на Minecraft
+-
+title: Контролиране на Minecraft с Python
+-
+title: TNT
