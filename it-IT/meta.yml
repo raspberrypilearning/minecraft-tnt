@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Introduzione
--
-title: Di cosa avrai bisogno
--
-title: Entra nel mondo di Minecraft
--
-title: Controllare Minecraft con Python
--
-title: TNT
+- title: Introduzione
+- title: Di cosa avrai bisogno
+- title: Entra nel mondo di Minecraft
+- title: Controllare Minecraft con Python
+- title: TNT
