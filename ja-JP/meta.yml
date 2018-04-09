@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: はじめに
--
-title: 必要なもの
--
-title: Minecraftの世界に入りましょう
--
-title: PythonでMinecraftをコントロールします
--
-title: TNT
+- title: はじめに
+- title: 必要なもの
+- title: Minecraftの世界に入りましょう
+- title: PythonでMinecraftをコントロールします
+- title: TNT
