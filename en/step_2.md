@@ -10,6 +10,8 @@ Open Minecraft Pi from the main menu. Start a game and create a new world.
 
 Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
 
+![](images/minecraft-keys.png)
+
 --- /task ---
 
 --- task ---
