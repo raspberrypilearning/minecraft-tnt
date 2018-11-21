@@ -1,9 +1,66 @@
-## Enter the Minecraft world
+## Controlling Minecraft with Python
 
-1. Open Minecraft Pi from the main menu. Start a game and create a new world.
+--- task ---
 
-1. Walk around using the WSAD keys on the keyboard. Use space to jump, and double tap space to fly.
+Open a new Python window and enter the following code:
 
-1. Press Tab and the keyboard to release your mouse cursor, and open Python 3 from the main menu.
+```python
+from mcpi.minecraft import Minecraft
 
-1. Move your windows around so Minecraft and Python are side-by-side.
+mc = Minecraft.create()
+
+mc.postToChat("Hello world")
+```
+
+--- /task ---
+
+--- task ---
+
+Run the code with `F5` and you should see the message "Hello world" appear in the Minecraft window.
+
+--- /task ---
+
+--- task ---
+
+Add the following lines to your code:
+
+```python
+x, y, z = mc.player.getPos()
+mc.setBlock(x+1, y, z, 1)
+```
+
+--- /task ---
+
+--- task ---
+
+Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+
+--- /task ---
+
+--- task ---
+
+Change the `1` at the end of the `setBlock` line to a `2`:
+
+```python
+mc.setBlock(x+1, y, z, 2)
+```
+
+--- /task ---
+
+--- task ---
+
+You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+
+--- /task ---
+
+--- task ---
+
+Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
+```
+
+You should see a large solid cube of stone appear!
+
+--- /task ---
