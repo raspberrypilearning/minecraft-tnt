@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 --- task ---
 
-Press **Tab** and the keyboard to release your mouse cursor, and open **Python 3** from the main menu.
+Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
 
 --- /task ---
 
 --- task ---
 
-Move your windows around so Minecraft and Python are side-by-side.
+Move your windows around so Minecraft and Mu are side-by-side.
 
 --- /task ---

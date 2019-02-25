@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open a new Python window and enter the following code:
+Enter the following code:
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -16,7 +16,7 @@ mc.postToChat("Hello world")
 
 --- task ---
 
-Run the code with `F5` and you should see the message "Hello world" appear in the Minecraft window.
+Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
 
 --- /task ---
 

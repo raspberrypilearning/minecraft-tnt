@@ -10,6 +10,12 @@ title: What you will need
 
 - Raspberry Pi computer
 
+You'll need to install Mu. Open a Terminal window and type the following command:
+
+```bash
+sudo apt install mu-editor
+```
+
 --- /collapse ---
 
 --- collapse ---
@@ -20,7 +26,7 @@ title: What you will learn
 
 - How to access Minecraft Pi and create a new world
 - How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates, teleport and build structures
+- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
 
 --- /collapse ---
 
