@@ -1,38 +1,19 @@
-## Minecraft mit Python steuern
+## TNT
 
-1. Öffne ein neues Python-Fenster und gib folgenden Code ein:
-    
-    ```python
-from mcpi.minecraft import Minecraft
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
 
-mc = Minecraft.create()
+\--- task \---
 
-mc.postToChat("Hallo Welt")
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. Führe den Code mit `F5` aus und du solltest die Nachricht "Hallo Welt" im Minecraft Fenster sehen.
+\--- /task \---
 
-3. Füge deinem Code die folgenden Zeilen hinzu:
-    
-    ```python
-x, y, z = mc.player.getPos()
-mc.setBlock(x+1, y, z, 1)
-```
+\--- task \---
 
-4. Führe den Code aus und du solltest einen Steinblock in der Nähe deines Spielers sehen. Wenn er nicht vor dir ist, versuche dich umzusehen.
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-5. Ände die `1` am Ende der `setBlock` Zeile zu einer `2`:
-    
-    ```python
-mc.setBlock(x+1, y, z, 2)
-```
-
-6. Du solltest jetzt einen Grasblock erscheinen sehen. Versuche, die Nummer erneut zu ändern und schau, welche Art von Block platziert wird.
-
-7. Versuche `setBlock` zu `setBlocks` zu ändern, um einen 10x10x10 Würfel anstelle eines einzelnen Blocks zu bauen:
-    
-    ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
-```
-
-Du solltest einen großen, soliden Steinwürfel sehen!
+\--- /task \---
