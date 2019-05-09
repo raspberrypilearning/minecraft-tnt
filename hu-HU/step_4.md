@@ -1,39 +1,19 @@
-## Minecraft irányítása Pythonnal
+## TNT
 
-1. Nyiss meg egy új Python ablakot, és írd be a következő kódot:
-    
-    ```python
-from mcpi.minecraft import Minecraft 
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
 
-mc = Minecraft.create () 
+\--- task \---
 
-mc.postToChat ("Hello world")
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. Futtasd a kódot az `F5` paranccsal és a Minecraft ablakban megjelenik a "Hello világ" üzenet.
+\--- /task \---
 
-3. Add hozzá a következő sorokat a kódodhoz:
-    
-    ```python
-x, y, z = mc.player.getPos () 
+\--- task \---
 
-mc.setBlock (x + 1, y, z, 1)
-```
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-4. Futtasd a kódot, és megjelenik egy kőblokk a játékosod közelében. Ha nincs előtted, nézegess körbe.
-
-5. Váltsd az `1` -t a `setBlock` sor végén `2`-re:
-    
-    ```python
-mc.setBlock (x + 1, y, z, 2)
-```
-
-6. Most egy fűtömbönek kellene megjelennie. Próbáld újra megváltoztatni a számot, és figyeld meg, hogy milyen blokk jelenik meg.
-
-7. Próbáld megváltoztatni a `setBlock`-t `setBlocks`-ra, így egy blokk helyett egy 10x10x10 kockád lesz:
-    
-    ```python
-mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
-```
-
-Most egy nagy kőtömbnek kellene megjelennie!
+\--- /task \---
