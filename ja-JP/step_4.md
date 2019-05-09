@@ -1,39 +1,19 @@
-## PythonでMinecraftをコントロールします
+## TNT
 
-1. 新しいPythonウィンドウを開き、以下のコードを入力します：
-    
-    ```python
-from mcpi.minecraft import Minecraft
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
 
-mc = Minecraft.create()
+\--- task \---
 
-mc.postToChat("Hello world")
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. `F5`でコードを実行します。 Minecraftウィンドウに "Hello world"というメッセージが表示されます。
+\--- /task \---
 
-3. コードに次の行を追加します。
-    
-    ```python
-x, y, z = mc.player.getPos()
+\--- task \---
 
-mc.setBlock(x+1, y, z, 1)
-```
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-4. コードを実行すると、プレーヤーの近くに石のブロックが表示されます。 石のブロックが見えない場合は、あたりを見回してみてください。
-
-5. `setBlock`関数の最後の`1`を`2`に変更してください。：
-    
-    ```python
-mc.setBlock(x+1, y, z, 2)
-```
-
-6. 草のブロックが現れるはずです。 番号をもう一度変更して、ブロックの種類を確認してください。
-
-7. `setBlock`関数を`setBlocks`関数に変更してみましょう。ブロック1つではなく、10x10x10の立方体を作成します：
-    
-    ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
-```
-
-大きな石の立方体が現れます。
+\--- /task \---
