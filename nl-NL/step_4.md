@@ -1,39 +1,19 @@
-## Het besturen van Minecraft met Python
+## TNT
 
-1. Open een nieuw Python-venster en voer de volgende code in:
-    
-    ```python
-from mcpi.minecraft import Minecraft 
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
 
-mc = Minecraft.create () 
+\--- task \---
 
-mc.postToChat ("Hello world")
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. Voer het programma uit door op `F5` te drukken en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
+\--- /task \---
 
-3. Voeg de volgende regels toe aan uw programma:
-    
-    ```python
-x, y, z = mc.player.getPos () 
+\--- task \---
 
-mc.setBlock (x + 1, y, z, 1)
-```
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-4. Voer het programma uit (F5) en je zou een steenblok in de buurt van je speler moeten zien verschijnen. Als het niet voor je is, kijk dan even rond.
-
-5. Wijzig de `1` aan het einde van de `setBlock` regel naar een `2`:
-    
-    ```python
-mc.setBlock (x + 1, y, z, 2)
-```
-
-6. Je zou nu een blok gras moeten zien verschijnen. Probeer het nummer opnieuw te veranderen en kijk welk blok wordt geplaatst.
-
-7. Probeer te veranderen `setBlock` naar `setBlocks` om een ​​kubus van 10x10x10 te bouwen in plaats van een enkel blok:
-    
-    ```python
-mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
-```
-
-Je zou een grote, stevige kubus van steen moeten zien verschijnen!
+\--- /task \---
