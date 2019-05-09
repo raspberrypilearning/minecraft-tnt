@@ -1,24 +1,17 @@
 ---
-title: Minecraft با پایتون
-hero_image: images / banner.png
+title: Minecraft TNT
+hero_image: images/banner.png
 description: حرکت در دنیای Minecraft Pi، ساختن با کد را یاد بگیرید و با TNT چیزهای مختلف را منفجر کنید
-theme: قرمز
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "بازی‌ها"
-technologies: "python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: مقدمه
   - 
-    title: آنچه شما نیاز دارید
+    title: Enter the Minecraft world
   - 
-    title: وارد دنیای Minecraft شوید
-  - 
-    title: کنترل Minecraft با پایتون
+    title: Controlling Minecraft with Python
   - 
     title: TNT
