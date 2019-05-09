@@ -1,9 +1,66 @@
-## Minecraft दुनिया दर्ज करें
+## Controlling Minecraft with Python
 
-1. मेन मेन्यू से ओपन माइनक्राफ्ट पाई एक गेम शुरू करें और एक नई दुनिया बनाएं।
+\--- task \---
 
-2. कुंजीपटल पर WSAD कुंजी का उपयोग कर चारों ओर चलो कूदने के लिए स्थान का उपयोग करें, और उड़ान भरने के लिए नल का दोहन करें।
+Enter the following code:
 
-3. अपने माउस कर्सर को छोड़ने के लिए टैब और कीबोर्ड दबाएं, और मुख्य मेनू से अजगर 3 को खोलें।
+```python
+from mcpi.minecraft import Minecraft
 
-4. अपनी खिड़कियों को चारों ओर ले जाएं ताकि माइक्रैंट और पायथन एक साथ-साथ हो सकते हैं।
+mc = Minecraft.create()
+
+mc.postToChat("Hello world")
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+
+\--- /task \---
+
+\--- task \---
+
+Add the following lines to your code:
+
+```python
+x, y, z = mc.player.getPos()
+mc.setBlock(x+1, y, z, 1)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+
+\--- /task \---
+
+\--- task \---
+
+Change the `1` at the end of the `setBlock` line to a `2`:
+
+```python
+mc.setBlock(x+1, y, z, 2)
+```
+
+\--- /task \---
+
+\--- task \---
+
+You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+
+\--- /task \---
+
+\--- task \---
+
+Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
+```
+
+You should see a large solid cube of stone appear!
+
+\--- /task \---
