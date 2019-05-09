@@ -1,38 +1,19 @@
-## کنترل Minecraft با پایتون
+## TNT
 
-1. یک پنجره پایتون جدید باز کنید و کد زیر را وارد کنید:
-    
-    ```python
-from mcpi.minecraft import Minecraft
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
 
-mc = Minecraft.create()
+\--- task \---
 
-mc.postToChat("Hello world")
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. کد را با `F5` اجرا کنید و می‌بینید که پیغام "Hello World" را در پنجره Minecraft ظاهر می‌شود.
+\--- /task \---
 
-3. خطوط زیر را به کد خود اضافه کنید:
-    
-    ```python
-x, y, z = mc.player.getPos()
-mc.setBlock(x+1, y, z, 1)
-```
+\--- task \---
 
-4. کد را اجرا کنید و باید یک بلوک سنگی را در نزدیکی بازیکن مشاهده کنید. اگر آن در مقابل شما نیست، سعی کنید به اطراف نگاه کنید.
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-5. `1` در پایان خط `setBlock`را به `2` تغییر دهید:
-    
-    ```python
-mc.setBlock(x+1, y, z, 2)
-```
-
-6. حالا باید یک بلوک از علف را ببیند. سعی کنید دوباره شماره را تغییر دهید و ببینید چه نوع بلوکی قرار می‌گیرد.
-
-7. `setBlock` را به `setBlocks` تغییر دهید تا یک مکعب 10x10x10 به جای یک بلوک بسازید:
-    
-    ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
-```
-
-می‌بینید که یک مکعب بزرگ سنگی ایجاد شده است!
+\--- /task \---
