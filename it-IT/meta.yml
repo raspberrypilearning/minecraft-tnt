@@ -2,15 +2,10 @@
 title: Controllare Minecraft con Python
 hero_image: images/banner.png
 description: 'Naviga nel mondo di Minecraft: Pi, impara a creare con i codici e fai esplodere le cose con il TNT'
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "games"
-technologies: "python"
-site_areas: ""
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduzione
@@ -20,5 +15,3 @@ steps:
     title: Entra nel mondo di Minecraft
   - 
     title: Controllare Minecraft con Python
-  - 
-    title: TNT
