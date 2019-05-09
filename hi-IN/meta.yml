@@ -1,24 +1,17 @@
 ---
-title: पायथन के साथ मडेंडिंग मॉन्किंग
-hero_image: छवियों / banner.png
-description: Minecraft Pi की दुनिया को नेविगेट करें, कोड के साथ बनाने के लिए सीखें और टीएनटी के साथ चीजों को उड़ाएं
-theme: लाल
-duration: 2
+title: Minecraft TNT
+hero_image: images/banner.png
+description: Minecraft Pi की दुनिया को नेविगेट करें, कोड के साथ निर्माण करना सीखें और टीएनटी का उपयोग कर चीजों को उड़ाएं
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "खेल"
-technologies: "python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: परिचय
   - 
-    title: तुम क्या आवश्यकता होगी
+    title: Enter the Minecraft world
   - 
-    title: Minecraft दुनिया दर्ज करें
+    title: Controlling Minecraft with Python
   - 
-    title: पायथन के साथ Minecraft नियंत्रण
-  - 
-    title: टीएनटी
+    title: TNT
