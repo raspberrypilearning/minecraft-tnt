@@ -1,24 +1,17 @@
 ---
-title: Minecraft és Python
+title: Minecraft TNT
 hero_image: images / banner.png
 description: Utazz a Minecraft Pi világába és tanulj meg kódokkal robbantgatni
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "games"
-technologies: "python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Bevezetés
   - 
-    title: Amire szükséged lesz
+    title: Enter the Minecraft world
   - 
-    title: Lépj be a Minecraft világába
-  - 
-    title: Irányítsd a Minecraftot a Pythonnal
+    title: Controlling Minecraft with Python
   - 
     title: TNT
