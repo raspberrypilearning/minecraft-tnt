@@ -2,15 +2,10 @@
 title: Aanpassen van Minecraft met Python
 hero_image: images/banner.png
 description: Navigeer door de wereld van Minecraft Pi, leer met code te creëren en blaas dingen op met TNT
-theme: rood
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: "spellen"
-technologies: "python"
-site_areas: ""
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Introductie
@@ -20,5 +15,3 @@ steps:
     title: Ga de Minecraft-wereld binnen
   - 
     title: Het besturen van Minecraft met Python
-  - 
-    title: TNT
