@@ -1,33 +1,19 @@
-## पायथन के साथ Minecraft नियंत्रण
+## TNT
 
-1. एक नई पायथन विंडो खोलें और निम्न कोड दर्ज करें:
-    
-    ```python
-एमसीपीआई से। मैनेरिक आयात Minecraft एमसी = Minecraft.create () mc.postToChat ("हैलो दुनिया")
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
+
+\--- task \---
+
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. साथ कोड चलाएं `F5` और आपको "हेलो वर्ल्ड" संदेश को Minecraft विंडो में दिखाई देना चाहिए।
+\--- /task \---
 
-3. अपने कोड में निम्न पंक्तियां जोड़ें:
-    
-    ```python
-x, y, z = mc.player.getPos () mc.setBlock (x + 1, y, z, 1)
-```
+\--- task \---
 
-4. कोड चलाएं और आपको अपने प्लेयर के पास पत्थर का एक ब्लॉक दिखाई देगा। यदि यह आपके सामने नहीं है, तो आसपास की तरफ देखने का प्रयास करें।
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-5. बदलें `1` 123_6_2_321 | सेटब्लॉक | 123_7_3_321 के अंत में | एक से लाइन 123_6_4_321 | 2</code>:
-    
-    ```python
-mc.setBlock (x + 1, y, z, 2)
-```
-
-6. अब आपको घास के एक ब्लॉक दिखाई देगा। संख्या को फिर से बदलने की कोशिश करें और देखें कि किस तरह का ब्लॉक रखा जाता है
-
-7. बदलने का प्रयास करें `सेटब्लॉक` `सेटब्लॉक्स` एकल ब्लॉक के बजाय 10x10x10 घन बनाने के लिए:
-    
-    ```python
-mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
-```
-
-आपको पत्थर का एक बड़ा घन घन दिखाई देगा!
+\--- /task \---
