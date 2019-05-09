@@ -1,33 +1,19 @@
-## Контролиране на Minecraft с Python
+## TNT
 
-1. Отворете нов прозорец на Python и въведете следния код:
-    
-    ```python
-от mcpi.minecraft внос Minecraft mc = Minecraft.create () mc.postToChat ("Здравей свят")
+The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
+
+\--- task \---
+
+Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 ```
 
-2. Изпълнете кода с `F5` и трябва да видите съобщението "Hello world" в прозореца на Minecraft.
+\--- /task \---
 
-3. Добавете следните редове в кода:
-    
-    ```python
-x, y, z = mc.player.getPos () mc.setBlock (х + 1, у, z, 1)
-```
+\--- task \---
 
-4. Изпълнете кода и трябва да видите блок камък, който да се появи близо до плейъра ви. Ако това не е пред вас, опитайте да се огледате наоколо.
+Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
 
-5. Променете `1` в края на `setBlock` линия към `2`:
-    
-    ```python
-mc.setBlock (х + 1, у, z, 2)
-```
-
-6. Сега трябва да видите блок трева. Опитайте да промените номера отново и да видим какъв вид блок е поставен.
-
-7. Опитайте да промените `setBlock` до `setBlocks` да изгради куб 10x10x10, а не един блок:
-    
-    ```python
-mc.setBlocks (х + 1, у + 1, z + 1, х + 11, у + 11, z + 11,1)
-```
-
-Трябва да видите голям твърд куб на камък изглежда!
+\--- /task \---
