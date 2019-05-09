@@ -1,9 +1,66 @@
-## Komme in die Minecraft-Welt
+## Controlling Minecraft with Python
 
-1. Öffne Minecraft Pi aus dem Hauptmenü. Starte ein Spiel und erschaffe eine neue Welt.
+\--- task \---
 
-2. Gehen Sie mit den WSAD-Tasten auf der Tastatur herum. Verwende die Leertaste zum Springen und tippe zweimal auf die Leertaste, um zu fliegen.
+Enter the following code:
 
-3. Drücken Sie die Tabulatortaste, um den Mauszeiger freizugeben, und öffnen Sie Python 3 im Hauptmenü.
+```python
+from mcpi.minecraft import Minecraft
 
-4. Verschiebe deine Fenster so, dass Minecraft und Python Seite an Seite stehen.
+mc = Minecraft.create()
+
+mc.postToChat("Hello world")
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+
+\--- /task \---
+
+\--- task \---
+
+Add the following lines to your code:
+
+```python
+x, y, z = mc.player.getPos()
+mc.setBlock(x+1, y, z, 1)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+
+\--- /task \---
+
+\--- task \---
+
+Change the `1` at the end of the `setBlock` line to a `2`:
+
+```python
+mc.setBlock(x+1, y, z, 2)
+```
+
+\--- /task \---
+
+\--- task \---
+
+You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+
+\--- /task \---
+
+\--- task \---
+
+Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+
+```python
+mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
+```
+
+You should see a large solid cube of stone appear!
+
+\--- /task \---
