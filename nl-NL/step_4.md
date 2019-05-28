@@ -1,6 +1,6 @@
 ## TNT
 
-Het blok-ID voor TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. Jij wilt de explosieve TNT.
+Het blok-ID voor TNT is `46`. Er zijn twee soorten TNT: niet-explosief TNT en explosief TNT. Jij wilt de explosieve TNT.
 
 \--- task \---
 
