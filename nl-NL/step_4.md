@@ -1,19 +1,19 @@
 ## TNT
 
-The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
+Het blok-ID voor TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. Jij wilt de explosieve TNT.
 
 \--- task \---
 
-Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+Bouw een solide kubus van TNT. Om explosieve TNT te krijgen, moet je een `1` aan het einde van je `setBlocks` regel toevoegen:
 
 ```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
+mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 46, 1)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
+Ga omhoog langs de kubus van TNT en tik erop met je zwaard door middel van de rechtermuisknop. Hiermee wordt de TNT geactiveerd. Ga snel even achteruit ​​en kijk naar de show!
 
 \--- /task \---
