@@ -8,7 +8,7 @@ Open Minecraft Pi vanuit het hoofdmenu. Start een spel en maak een nieuwe wereld
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+Loop rond met behulp van de **W S A D**-toetsen op het toetsenbord. Gebruik de **spatiebalk** om te springen en druk twee maal snel op de spatiebalk om te vliegen.
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+Druk op **Tab** op het toetsenbord om je muisaanwijzer los te koppelen van het Minecraft venster en open **Mu** vanuit het hoofdmenu.
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+Verplaats je vensters, zodat Minecraft en Mu naast elkaar staan.
 
 \--- /task \---
