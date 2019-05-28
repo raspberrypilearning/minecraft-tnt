@@ -1,66 +1,67 @@
-## Controlling Minecraft with Python
+## Het besturen van Minecraft met Python
 
 \--- task \---
 
-Enter the following code:
+Voer de volgende code in:
 
 ```python
-from mcpi.minecraft import Minecraft
+from mcpi.minecraft import Minecraft 
 
-mc = Minecraft.create()
+mc = Minecraft.create () 
 
-mc.postToChat("Hello world")
+mc.postToChat ("Hello world")
+```
+
+\---/task\---
+
+\--- task \---
+
+Voer het programma uit door op **F5** te drukken en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
+
+\--- /task \---
+
+\--- task \---
+
+Voeg de volgende regels toe aan uw programma:
+
+```python
+x, y, z = mc.player.getPos () 
+
+mc.setBlock (x + 1, y, z, 1)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+Voer het programma uit (F5) en je zou een steenblok in de buurt van je speler moeten zien verschijnen. Als het niet voor je is, kijk dan even rond.
 
-\--- /task \---
+-- /task \---
 
-\--- task \---
+\--- task \----
 
-Add the following lines to your code:
+Wijzig de `1` aan het einde van de `setBlock` regel naar een `2`:
 
 ```python
-x, y, z = mc.player.getPos()
-mc.setBlock(x+1, y, z, 1)
+mc.setBlock (x + 1, y, z, 2)
 ```
 
 \--- /task \---
 
-\--- task \---
+\--- taak \---
 
-Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+Je zou nu een blok gras moeten zien verschijnen. Probeer het nummer opnieuw te veranderen en kijk welk blok wordt geplaatst.
 
 \--- /task \---
 
 \--- task \---
 
-Change the `1` at the end of the `setBlock` line to a `2`:
+Probeer te veranderen `setBlock` naar `setBlocks` om een ​​kubus van 10x10x10 te bouwen in plaats van een enkel blok:
 
 ```python
-mc.setBlock(x+1, y, z, 2)
+mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
 ```
 
-\--- /task \---
-
-\--- task \---
-
-You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
-
-\--- /task \---
-
-\--- task \---
-
-Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
-
-```python
-mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
-```
-
-You should see a large solid cube of stone appear!
+Je zou een grote, stevige kubus van steen moeten zien verschijnen!
 
 \--- /task \---
