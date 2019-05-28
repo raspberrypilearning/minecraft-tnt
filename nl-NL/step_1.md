@@ -1,6 +1,6 @@
-## Introductie
+## Inleiding
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Navigeer door de wereld van Minecraft Pi, leer met code te creëren en blaas dingen op met TNT
 
 \--- collapse \---
 
@@ -22,7 +22,7 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - How to access Minecraft Pi and create a new world
 - How to use Python to connect to Minecraft Pi
