@@ -1,10 +1,10 @@
-## Enter the Minecraft world
+## Ga de Minecraft-wereld binnen
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+Open Minecraft Pi vanuit het hoofdmenu. Start een spel en maak een nieuwe wereld.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
