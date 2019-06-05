@@ -1,8 +1,8 @@
-## Controlling Minecraft with Python
+## PythonでMinecraftを制御する
 
 \--- task \---
 
-Enter the following code:
+次のコードを入力します。
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -16,16 +16,17 @@ mc.postToChat("Hello world")
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+**F5**でコードを実行します。 Minecraftウィンドウに"Hello world"というメッセージが表示されます。
 
 \--- /task \---
 
 \--- task \---
 
-Add the following lines to your code:
+コードに次の行を追加します。
 
 ```python
 x, y, z = mc.player.getPos()
+
 mc.setBlock(x+1, y, z, 1)
 ```
 
@@ -33,13 +34,13 @@ mc.setBlock(x+1, y, z, 1)
 
 \--- task \---
 
-Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+コードを実行すると、プレーヤーの近くに石のブロックが表示されます。 石のブロックが見えない場合は、あたりを見回してみてください。
 
 \--- /task \---
 
 \--- task \---
 
-Change the `1` at the end of the `setBlock` line to a `2`:
+`setBlock`行の最後の`1`を`2`に変更してください。
 
 ```python
 mc.setBlock(x+1, y, z, 2)
@@ -49,18 +50,18 @@ mc.setBlock(x+1, y, z, 2)
 
 \--- task \---
 
-You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+草のブロックが現れるはずです。 もう一度番号を変更して、どんな種類のブロックが置かれるか確認します。
 
 \--- /task \---
 
 \--- task \---
 
-Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+`setBlock`を`setBlocks`に変更して、1つのブロックではなく10x10x10の立方体を作成してみましょう。
 
 ```python
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
 ```
 
-You should see a large solid cube of stone appear!
+大きな石の立方体が現れるはずです！
 
 \--- /task \---
