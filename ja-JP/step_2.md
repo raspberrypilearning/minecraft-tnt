@@ -1,8 +1,8 @@
-## Enter the Minecraft world
+## Minecraftのワールドに入る
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+メインメニューからMinecraft Piを開きます。 ゲームを開始して新しいワールドを作りましょう。
 
 \--- /task \---
 
