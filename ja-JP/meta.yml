@@ -4,14 +4,14 @@ hero_image: images/banner.png
 description: Minecraft Piのワールドを探検し、TNTブロックで爆発させるプログラムの作成方法を学びましょう
 listed: false
 copyedit: false
-version: 4
+version: 3
 last_tested: 2017-01-01
 steps:
   - 
     title: はじめに
   - 
-    title: 必要なもの
+    title: Minecraftのワールドに入る
   - 
-    title: Minecraftの世界に入りましょう
+    title: PythonでMinecraftを制御する
   - 
-    title: PythonでMinecraftをコントロールします
+    title: TNT
