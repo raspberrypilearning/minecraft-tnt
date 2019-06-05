@@ -1,12 +1,12 @@
 ## はじめに
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Minecraft Piのワールドを探検し、TNTブロックで爆発させるプログラムの作成方法を学びましょう
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: 必要なもの
 
 - Raspberry Pi computer
 
@@ -22,7 +22,7 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: 学習すること
 
 - How to access Minecraft Pi and create a new world
 - How to use Python to connect to Minecraft Pi
