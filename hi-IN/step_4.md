@@ -1,10 +1,10 @@
-## TNT
+## टीएनटी
 
-The block ID for TNT is `46`. There are two types of TNT: unexplosive TNT and explosive TNT. You want explosive TNT.
+टीएनटी का ब्लॉक आईडी `46` है। There are two types of TNT: unexplosive TNT and explosive TNT. आपको विस्फोटक टीएनटी चाहिए।
 
 \--- task \---
 
-Build a solid cube of TNT. To get explosive TNT, you need to add a `1` to the end of your `setBlocks` line:
+टीएनटी का एक ठोस घन बनाएं। विस्फोटक टीएनटी प्राप्त करने के लिए, आपको `setBlocks` लाइन के अंत में `1` जोड़ना होगा:
 
 ```python
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
@@ -14,6 +14,6 @@ mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 46, 1)
 
 \--- task \---
 
-Go up to the cube of TNT and hit it with your sword using right-click. This will activate the TNT. Stand back and watch the show!
+टीएनटी के घन तक चलिए और राइट-क्लिक का उपयोग करके अपने तलवार से वॉर करे। यह टीएनटी को सक्रिय करेगा। पीछे खड़े होकर तमाशा देखें!
 
 \--- /task \---
