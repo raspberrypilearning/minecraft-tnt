@@ -1,8 +1,8 @@
-## Controlling Minecraft with Python
+## Python के साथ Minecraft का नियंत्रण करे
 
 \--- task \---
 
-Enter the following code:
+निम्नलिखित कोड को दर्ज करें:
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -16,13 +16,13 @@ mc.postToChat("Hello world")
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+**F5** दबाकर कोड चलाएं और "Hello world" संदेश Minecraft विंडो पर देखे।
 
 \--- /task \---
 
 \--- task \---
 
-Add the following lines to your code:
+अपने कोड में निम्न पंक्तियां जोड़ें:
 
 ```python
 x, y, z = mc.player.getPos()
@@ -33,13 +33,13 @@ mc.setBlock(x+1, y, z, 1)
 
 \--- task \---
 
-Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+कोड चलने पर आपको अपने प्लेयर के पास पत्थर का एक ब्लॉक दिखाई देगा। यदि यह आपके सामने नहीं है, तो आसपास देखने का प्रयास करें।
 
 \--- /task \---
 
 \--- task \---
 
-Change the `1` at the end of the `setBlock` line to a `2`:
+`setBlock` लाइन के आखिरी `1` को `2` में बदले:
 
 ```python
 mc.setBlock(x+1, y, z, 2)
@@ -49,18 +49,18 @@ mc.setBlock(x+1, y, z, 2)
 
 \--- task \---
 
-You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+अब आपको घास के एक ब्लॉक दिखाई देगा। संख्या को फिर से बदलने की कोशिश करें और देखें कि किस तरह का ब्लॉक रखा जाता है।
 
 \--- /task \---
 
 \--- task \---
 
-Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+`setBlock` को `setBlocks` में बदल कर एकल ब्लॉक के बजाय 10x10x10 का घन बनाए:
 
 ```python
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
 ```
 
-You should see a large solid cube of stone appear!
+आपको पत्थर का एक बड़ा घनक्षेत्र दिखाई देगा!
 
 \--- /task \---
