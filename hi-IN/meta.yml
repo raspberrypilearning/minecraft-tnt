@@ -8,10 +8,10 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: Enter the Minecraft world
+    title: Minecraft दुनिया में प्रवेश करे
   - 
-    title: Controlling Minecraft with Python
+    title: Python के साथ Minecraft का नियंत्रण करे
   - 
-    title: TNT
+    title: टीएनटी
