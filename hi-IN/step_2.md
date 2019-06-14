@@ -1,8 +1,8 @@
-## Enter the Minecraft world
+## Minecraft दुनिया में प्रवेश करे
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+मेन मेन्यू से Minecraft Pi को खोले। एक गेम शुरू करें और एक नई दुनिया बनाएं।
 
 \--- /task \---
 
