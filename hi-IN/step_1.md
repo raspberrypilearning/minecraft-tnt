@@ -1,12 +1,12 @@
 ## परिचय
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Minecraft Pi की दुनिया को नेविगेट करें, कोड के साथ निर्माण करना सीखें और टीएनटी का उपयोग कर चीजों को उड़ाएं
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: आपको किन चीजों की आवश्यकता होगी
 
 - Raspberry Pi computer
 
@@ -22,9 +22,9 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
-- How to access Minecraft Pi and create a new world
+- Minecraft Pi तक कैसे पहुँचे और एक नई दुनिया बनाएँ
 - How to use Python to connect to Minecraft Pi
 - How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
 
