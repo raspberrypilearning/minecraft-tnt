@@ -6,7 +6,7 @@ Navigeer door de wereld van Minecraft Pi, leer met code te creëren en blaas din
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 - Raspberry Pi computer
 
