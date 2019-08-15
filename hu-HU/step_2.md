@@ -1,14 +1,14 @@
-## Enter the Minecraft world
+## Lépj be a Minecraft világába
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+Nyisd meg a Minecraft Pi alkalmazást a főmenüből. Indítsd el a játékot és hozz létre egy új világot.
 
 \--- /task \---
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+Sétálj a **W S A D** billentyűk segítségével. Használd a **space** billentyűt az ugráshoz, kétszer a repüléshez.
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+Nyomd meg a **Tabot** a billentyűzeten a kurzor kioldásához és nyisd meg a **Mu**-t a főmenüből.
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+Mozgasd az ablakokat úgy, hogy a Minecraft és a Mu egymás mellett legyenek.
 
 \--- /task \---
