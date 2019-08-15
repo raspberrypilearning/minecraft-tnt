@@ -1,16 +1,16 @@
 ## Bevezetés
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Utazz a Minecraft Pi világába és tanulj meg kódokkal robbantgatni
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Amire szükséged lesz
 
-- Raspberry Pi computer
+- Raspberry Pi számítógép
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Fel kell tepelítened a Mu-t. Nyiss meg egy Terminál ablakot, majd írd be az alábbi parancsot:
 
 ```bash
 sudo apt install mu-editor
@@ -22,11 +22,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Amit meg fogsz tanulni
 
-- How to access Minecraft Pi and create a new world
-- How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
+- Hogyan férj hozzá a Minecraft Pi-hoz és hozz létre egy új világot
+- Hogyan használd a Pythont a Minecraft Pi-hoz való csatlakozáshoz
+- Hogyan használd a Minecraft Python API-t szöveges üzenetek küdésére, játékosok koordinátájának felkeresésére és struktúrák felépítéséhez
 
 \--- /collapse \---
 
@@ -34,11 +34,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) is available. Please observe any notes on this page before printing.
+Ha ki szeretnéd nyomtatni ezt a projektet, elérhető egy [PDV verzió](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
