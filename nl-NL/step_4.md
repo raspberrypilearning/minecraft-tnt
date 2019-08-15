@@ -1,39 +1,26 @@
-## Het besturen van Minecraft met Python
+## TNT
 
-1. Open een nieuw Python-venster en voer de volgende code in:
-    
-    ```python
-    from mcpi.minecraft import Minecraft 
+Het blok-ID voor TNT is `46`. Er zijn twee soorten TNT: niet-explosief TNT en explosief TNT. Jij wilt de explosieve TNT.
 
-    mc = Minecraft.create () 
+--- task ---
 
-    mc.postToChat ("Hello world")
-    ```
+Bouw een solide kubus van TNT. Om explosieve TNT te krijgen, moet je een `1` aan het einde van je `setBlocks` regel toevoegen:
 
-2. Voer het programma uit door op `F5` te drukken en u zou het bericht "Hallo wereld" in het Minecraft-venster moeten zien verschijnen.
+```python
+mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 46, 1)
+```
 
-3. Voeg de volgende regels toe aan uw programma:
-    
-    ```python
-    x, y, z = mc.player.getPos () 
+--- /task ---
 
-    mc.setBlock (x + 1, y, z, 1)
-    ```
+--- task ---
 
-4. Voer het programma uit (F5) en je zou een steenblok in de buurt van je speler moeten zien verschijnen. Als het niet voor je is, kijk dan even rond.
+Ga omhoog langs de kubus van TNT en tik erop met je zwaard door middel van de rechtermuisknop. Hiermee wordt de TNT geactiveerd. Ga snel even achteruit ​​en kijk naar de show!
 
-5. Wijzig de `1` aan het einde van de `setBlock` regel naar een `2`:
-    
-    ```python
-    mc.setBlock (x + 1, y, z, 2)
-    ```
+--- /task ---
 
-6. Je zou nu een blok gras moeten zien verschijnen. Probeer het nummer opnieuw te veranderen en kijk welk blok wordt geplaatst.
 
-7. Probeer te veranderen `setBlock` naar `setBlocks` om een ​​kubus van 10x10x10 te bouwen in plaats van een enkel blok:
-    
-    ```python
-    mc.setBlocks (x + 1, y + 1, z + 1, x + 11, y + 11, z + 11, 1)
-    ```
+**Door de community geleverde vertaling**
 
-    Je zou een grote, stevige kubus van steen moeten zien verschijnen!
+Dit project werd vertaald door **Jeroen Dekker**/**Coen Warries** en gecontroleerd door **Cor Groot**/**Robert-Jan Kempenaar**.
+
+Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
