@@ -10,7 +10,7 @@ Navigeer door de wereld van Minecraft Pi, leer met code te creëren en blaas din
 
 - Raspberry Pi computer
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Je zult Mu moeten installeren. Open een terminalvenster en voer de volgende opdracht in:
 
 ```bash
 sudo apt install mu-editor
@@ -24,9 +24,9 @@ sudo apt install mu-editor
 
 ## title: Wat ga je leren
 
-- How to access Minecraft Pi and create a new world
-- How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
+- Hoe open je Minecraft Pi en creëer je een nieuwe wereld
+- Hoe gebruik je Python om met Minecraft Pi verbinding te maken
+- Hoe gebruik je de Minecraft Python API om tekst te plaatsen in het chat scherm, spelers hun coördinaten te vinden en gebouwen te bouwen
 
 \--- /collapse \---
 
@@ -34,11 +34,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## titel: Informatie voor Jam organisatoren
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) is available. Please observe any notes on this page before printing.
+Als je dit project wilt afdrukken, is er een [PDF-versie](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) beschikbaar. Let op de opmerkingen op deze pagina voordat je gaat afdrukken.
 
 \--- /no-print \---
 
