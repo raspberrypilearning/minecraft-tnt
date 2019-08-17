@@ -50,7 +50,7 @@ mc.setBlock (x + 1, y, z, 2)
 
 \--- task \---
 
-Most egy fűtömbönek kellene megjelennie. Próbáld újra megváltoztatni a számot, és figyeld meg, hogy milyen blokk jelenik meg.
+Most egy fűtömbnek kellene megjelennie. Próbáld újra megváltoztatni a számot, és figyeld meg, hogy milyen blokk jelenik meg.
 
 \--- /task \---
 
