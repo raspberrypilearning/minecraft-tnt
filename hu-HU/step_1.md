@@ -26,7 +26,7 @@ sudo apt install mu-editor
 
 - Hogyan férj hozzá a Minecraft Pi-hoz és hozz létre egy új világot
 - Hogyan használd a Pythont a Minecraft Pi-hoz való csatlakozáshoz
-- Hogyan használd a Minecraft Python API-t szöveges üzenetek küdésére, játékosok koordinátájának felkeresésére és struktúrák felépítéséhez
+- Hogyan használd a Minecraft Python API-t szöveges üzenetek küldésére, játékosok koordinátájának felkeresésére és struktúrák felépítéséhez
 
 \--- /collapse \---
 
