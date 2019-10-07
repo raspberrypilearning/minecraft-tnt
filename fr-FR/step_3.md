@@ -1,4 +1,4 @@
-## Controlling Minecraft with Python
+## Contrôlez Minecraft avec Python
 
 \--- task \---
 
