@@ -1,14 +1,14 @@
-## Enter the Minecraft world
+## Entrez dans le monde de Minecraft
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+Lancez l'application Minecraft Pi à partir du menu principal. Démarrez une partie et créez un nouveau monde.
 
 \--- /task \---
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+Déplacez vous en utilisant les touches **W S A D** du clavier. Utilisez la touche **espace** pour sauter et appuyez deux fois sur la touche espace pour voler.
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+Appuyez sur la touche **Tab** du clavier pour libérer le curseur de la souris puis lancez **Mu** à partir du menu principal.
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+Déplacez les fenêtres de manière à ce que Minecraft et Python soient côte à côte.
 
 \--- /task \---
