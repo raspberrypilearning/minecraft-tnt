@@ -1,16 +1,16 @@
 ## Introduction
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Naviguez dans le monde de Minecraft Pi, apprenez à créer avec du code et à faire exploser des choses avec du TNT
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Qu’auras-tu de besoin
 
-- Raspberry Pi computer
+- Un ordinateur Raspberry Pi
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Tu auras besoin d’installer Mu . Ouvre la fenêtre du Terminal et entre-y la commande suivante :
 
 ```bash
 sudo apt install mu-editor
@@ -22,11 +22,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: What you will learn
+## title: Qu’apprendras-tu
 
-- How to access Minecraft Pi and create a new world
-- How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
+- Comment accéder à Minecraft Pi et créer un nouveau monde
+- Comment utiliser Python pour te connecter à Minecraft Pi
+- Comment utiliser les API de Minecraft Python pour afficher du texte sur la fenêtre de discussion, trouver les coordonnées du joueur et construire des structures
 
 \--- /collapse \---
 
@@ -34,11 +34,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Information pour les organisateurs Jam
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) is available. Please observe any notes on this page before printing.
+Si vous avez besoin d'imprimer ce projet, une [version PDF](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) est disponible. S’il vous plaît observer les notes sur cette page avant d’imprimer.
 
 \--- /no-print \---
 
