@@ -1,28 +1,28 @@
-## Controlling Minecraft with Python
+## Contrôlez Minecraft à l'aide de Python
 
 \--- task \---
 
-Enter the following code:
+Entrez le code suivant:
 
 ```python
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
 
-mc.postToChat("Hello world")
+mc.postToChat("Bonjour monde")
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+Exécutez le code avec la touche **F5** et vous devriez voir le message "Bonjour monde" apparaître dans la fenêtre Minecraft.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following lines to your code:
+Ajoutez les lignes suivantes à votre code:
 
 ```python
 x, y, z = mc.player.getPos()
@@ -33,13 +33,13 @@ mc.setBlock(x+1, y, z, 1)
 
 \--- task \---
 
-Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+Exécutez le code et vous devriez voir un bloc de pierre apparaître près de votre personnage. S'il n'est pas devant vous, essayez de regarder autour de vous.
 
 \--- /task \---
 
 \--- task \---
 
-Change the `1` at the end of the `setBlock` line to a `2`:
+Changez le `1` à la fin de la ligne `setBlock` pour un `2`:
 
 ```python
 mc.setBlock(x+1, y, z, 2)
@@ -49,18 +49,18 @@ mc.setBlock(x+1, y, z, 2)
 
 \--- task \---
 
-You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+Vous devriez maintenant voir un bloc de gazon apparaître. Essayez de changer le nombre à nouveau et voyez quel type de bloc est créé.
 
 \--- /task \---
 
 \--- task \---
 
-Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+Essayez de changer `setBlock` pour `setBlocks` pour créer un cube de 10x10x10 blocs plutôt qu'un bloc individuel:
 
 ```python
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
 ```
 
-You should see a large solid cube of stone appear!
+Vous devriez maintenant voir un gros cube de pierre apparaître!
 
 \--- /task \---
