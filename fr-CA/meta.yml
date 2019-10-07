@@ -1,17 +1,17 @@
 ---
-title: Contrôle de Minecraft avec Python
+title: TNT Minecraft
 hero_image: images/banner.png
-description: 'Naviguez dans le monde de Minefraft: Pi, apprenez à créer avec du code et à faire exploser les choses avec du TNT'
+description: Naviguez dans le monde de Minecraft Pi, apprenez à créer avec du code et à faire exploser des choses avec du TNT
 listed: false
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Introduction
   - 
-    title: Ce dont vous aurez besoin
-  - 
     title: Entrez dans le monde de Minecraft
   - 
-    title: Contrôle de Minecraft avec Python
+    title: Contrôle Minecraft à l'aide de Python
+  - 
+    title: TNT
