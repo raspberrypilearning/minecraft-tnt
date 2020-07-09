@@ -1,17 +1,17 @@
 ---
 title: Minecraft TNT
-hero_image: изображения / banner.png
-description: Навигирайте в света на Minecraft Pi, научете се да създавате с код и да размахвате нещата с TNT
+hero_image: images/banner.png
+description: Навигирайте в света на Minecraft Pi, научете се да създавате и да взривявате неща с TNT чрез код
 listed: false
 copyedit: false
 version: 4.1
-last_tested: 2018-11-21
+last_tested: 21.11.2018
 steps:
   - 
     title: Въведение
   - 
-    title: Enter the Minecraft world
+    title: Влез в Minecraft света
   - 
-    title: Controlling Minecraft with Python
+    title: Команди в Minecraft с Python
   - 
     title: TNT
