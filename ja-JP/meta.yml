@@ -1,23 +1,13 @@
 ---
-title: Modding Minecraft with Python
+title: Minecraft（マインクラフト） TNT
 hero_image: images/banner.png
-description: Minecraft Piの世界を探検し、TNTブロックで爆発させるプログラムの作成方法を学びます。
-theme: red
-duration: 2
+description: Minecraft Piのワールドを探検し、TNTブロックで爆発させるプログラムの作成方法を学びましょう
 listed: false
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: python
-site_areas: jam
-hardware: ''
-software: python
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: はじめに
-- title: 必要なもの
-- title: Minecraftの世界に入りましょう
-- title: PythonでMinecraftをコントロールします
-- title: TNT
+version: 3
+last_tested: 2018-11-21
+steps:
+  - title: はじめに
+  - title: Minecraftのワールドに入る
+  - title: PythonでMinecraftを制御する
+  - title: TNT
