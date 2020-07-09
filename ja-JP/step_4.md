@@ -1,6 +1,6 @@
 ## TNT
 
-TNTのブロックIDは`46`です。 There are two types of TNT: unexplosive TNT and explosive TNT. 爆発するTNTブロックが欲しいですよね。
+TNTのブロックIDは`46`です。 TNTブロックには、爆発しないTNTブロックと爆発するTNTブロックの2種類があります。 爆発するTNTブロックが欲しいですよね。
 
 \--- task \---
 
