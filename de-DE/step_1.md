@@ -1,6 +1,6 @@
 ## Einleitung
 
-Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+Navigiere in der Welt von Minecraft: Pi, lerne, mit Code etwas zu erstellen und Dinge mit TNT in die Luft zu jagen
 
 \--- collapse \---
 
