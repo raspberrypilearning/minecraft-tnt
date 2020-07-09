@@ -8,9 +8,9 @@ Minecraft Piのワールドを探検し、TNTブロックで爆発させるプ�
 
 ## title: 必要なもの
 
-- Raspberry Pi computer
+- Raspberry Piコンピュータ
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+Muをインストールする必要があります。 ターミナルウィンドウを開き、次のコマンドを入力します：
 
 ```bash
 sudo apt install mu-editor
@@ -24,9 +24,9 @@ sudo apt install mu-editor
 
 ## title: 学習すること
 
-- How to access Minecraft Pi and create a new world
-- How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
+- Minecraft Piにアクセスして新しいワールドをつくる方法
+- Pythonを使ってMinecraft Piに接続する方法
+- MinecraftのPython APIを使って、チャットウィンドウにテキストを投稿したり、プレイヤーの座標を見つけたり、ストラクチャーをつくる方法
 
 \--- /collapse \---
 
@@ -34,11 +34,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: Jam主催者向けの情報
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) is available. Please observe any notes on this page before printing.
+このプロジェクトを印刷する必要がある場合は、[PDF版](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf)が使えます。 印刷する前にこのページにある注意書きをよく読んでください。
 
 \--- /no-print \---
 
