@@ -8,7 +8,7 @@
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+キーボードの**W S A D**キーを使って歩きまわりましょう。 **スペース**キーを使ってジャンプし、スペースキーを続けて2回押すと飛行します。
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+キーボードの**Tab**キーを押してマウスカーソルのフォーカスを外し、メインメニューから**Mu**を開きます。
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+MinecraftとMuが並ぶようにウィンドウを移動します。
 
 \--- /task \---
