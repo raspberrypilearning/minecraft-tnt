@@ -1,22 +1,18 @@
-## Controlling Minecraft with Python
+## Komme in die Minecraft-Welt
 
 \--- task \---
 
 Enter the following code:
 
 ```python
-from mcpi.minecraft import Minecraft
-
-mc = Minecraft.create()
-
-mc.postToChat("Hello world")
+Verschiebe deine Fenster so, dass Minecraft und Python Seite an Seite stehen.
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+Verschiebe deine Fenster so, dass Minecraft und Python Seite an Seite stehen.
 
 \--- /task \---
 
