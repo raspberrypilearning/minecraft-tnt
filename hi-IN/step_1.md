@@ -8,9 +8,9 @@ Minecraft Pi की दुनिया को नेविगेट करें
 
 ## title: आपको किन चीजों की आवश्यकता होगी
 
-- Raspberry Pi computer
+- रास्पबेरी पाई संगणक
 
-You'll need to install Mu. Open a Terminal window and type the following command:
+आपको म्यू स्थापित करना होगा। एक टर्मिनल विंडो खोलें और निम्न लिखित कमांड टाइप करें:
 
 ```bash
 sudo apt install mu-editor
@@ -25,8 +25,8 @@ sudo apt install mu-editor
 ## title: आप क्या सीखेंगे
 
 - Minecraft Pi तक कैसे पहुँचे और एक नई दुनिया बनाएँ
-- How to use Python to connect to Minecraft Pi
-- How to use the Minecraft Python API to post text to the chat window, find the player's coordinates and build structures
+- Minecraft Pi से कनेक्ट करने के लिए पायथन का उपयोग कैसे करें
+- चैट विंडो में टेक्स्ट पोस्ट करने, खिलाड़ी के निर्देशांकों का पता लगाने, संरचनाओं को टेलीपोर्ट करने और उनका निर्माण करने के लिए Minecraft Python API का उपयोग कैसे करें
 
 \--- /collapse \---
 
@@ -34,11 +34,11 @@ sudo apt install mu-editor
 
 * * *
 
-## title: Information for Jam organisers
+## title: जाम आयोजको के लिए सूचना
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) is available. Please observe any notes on this page before printing.
+यदि आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो [ पीडीएफ संस्करण ](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Minecraft-TNT.pdf) उपलब्ध है। कृपया प्रिंट से पहले अगर इस पेज पर कोई भी नोट हो तो उसे पढे।
 
 \--- /no-print \---
 
