@@ -1,8 +1,8 @@
-## Controlling Minecraft with Python
+## Команди в Minecraft с Python
 
 \--- task \---
 
-Enter the following code:
+Въведете следния код:
 
 ```python
 from mcpi.minecraft import Minecraft
@@ -16,13 +16,13 @@ mc.postToChat("Hello world")
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+Пуснете кода с **F5** и съобщението "Hello world" ще се появи в прозореца на Minecraft.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following lines to your code:
+Добавете следното към вашия код:
 
 ```python
 x, y, z = mc.player.getPos()
@@ -33,13 +33,13 @@ mc.setBlock(x+1, y, z, 1)
 
 \--- task \---
 
-Run the code and you should see a block of stone appear near your player. If it's not in front of you, try looking around.
+Пуснете кода и ще видите, че един каменен блок се е появил близо до играча ви. Ако все пак не е пред него, огледайте се наоколо.
 
 \--- /task \---
 
 \--- task \---
 
-Change the `1` at the end of the `setBlock` line to a `2`:
+Променете последната променлива в `setBlock` метода от `1` на `2`:
 
 ```python
 mc.setBlock(x+1, y, z, 2)
@@ -47,20 +47,20 @@ mc.setBlock(x+1, y, z, 2)
 
 \--- /task \---
 
-\--- task \---
+\--- /task \---
 
-You should now see a block of grass appear. Try changing the number again and see what kind of block gets placed.
+Ще се появи едно тревен блок. Задайте друго число като променлива и вижте какъв ще е резултата.
 
 \--- /task \---
 
 \--- task \---
 
-Try changing `setBlock` to `setBlocks` to build a 10x10x10 cube rather than a single block:
+Сменете `setBlock` метода с `setBlocks`, за да построите кубна структура с размери 10x10x10 блока:
 
 ```python
 mc.setBlocks(x+1, y+1, z+1, x+11, y+11, z+11, 1)
 ```
 
-You should see a large solid cube of stone appear!
+Тогава ще се появи кубната структура от каменни блокове!
 
 \--- /task \---
