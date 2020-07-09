@@ -1,22 +1,18 @@
-## Contrôlez Minecraft avec Python
+## Entrez dans le monde de Minecraft
 
 \--- task \---
 
 Enter the following code:
 
 ```python
-from mcpi.minecraft import Minecraft
-
-mc = Minecraft.create()
-
-mc.postToChat("Hello world")
+Déplacez vos fenêtres pour que Minecraft et Python soient côte à côte.
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with **F5** and you should see the message "Hello world" appear in the Minecraft window.
+Déplacez vos fenêtres pour que Minecraft et Python soient côte à côte.
 
 \--- /task \---
 
