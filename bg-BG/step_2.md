@@ -1,14 +1,14 @@
-## Enter the Minecraft world
+## Влез в Minecraft света
 
 \--- task \---
 
-Open Minecraft Pi from the main menu. Start a game and create a new world.
+Стартирайте Minecraft Pi от главното меню. Започнете игра и създайте нов свят.
 
 \--- /task \---
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+Движете се използвайки клавишите **W S A D**. Използвайте клавиша **space**(интервал) веднъж, за да скочите и два пъти, за да полетите.
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+Натиснете клавиша **Tab**, за да освободите курсора на мишката и стартирайте **Mu** от главното меню.
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+Поставете прозорците на Minecraft и Mu, така че да са един до друг.
 
 \--- /task \---
