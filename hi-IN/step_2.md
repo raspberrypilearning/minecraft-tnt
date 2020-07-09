@@ -8,7 +8,7 @@
 
 \--- task \---
 
-Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, and double tap space to fly.
+कीबोर्ड के ** W A S D ** बटन का उपयोग कर चारों ओर चले। कूदने के लिए ** Space ** बटन का उपयोग करें, और उड़ान भरने के लिए दो बार Space बटन दबाये।
 
 ![](images/minecraft-keys.png)
 
@@ -16,12 +16,12 @@ Walk around using the **W S A D** keys on the keyboard. Use **space** to jump, a
 
 \--- task \---
 
-Press **Tab** on the keyboard to release your mouse cursor, and open **Mu** from the main menu.
+माउस कर्सर को छोड़ने के लिए **Tab** अपने कीबोर्ड पर दबाएं, और मुख्य मेनू से ** म्यू ** को खोलें।
 
 \--- /task \---
 
 \--- task \---
 
-Move your windows around so Minecraft and Mu are side-by-side.
+स्क्रीन पर उपस्थित विंडोज को हिलाये ताकि Minecraft और Python अलग-बगल हो।
 
 \--- /task \---
