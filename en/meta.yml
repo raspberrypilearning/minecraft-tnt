@@ -1,12 +1,16 @@
+---
 title: Minecraft TNT
 hero_image: images/banner.png
-description: Navigate the world of Minecraft Pi, learn to create with code and blow things up with TNT
+description: Navigate the world of Minecraft Pi, learn to create with code and blow
+  things up with TNT
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introduction
+  completion: engaged
 - title: Enter the Minecraft world
 - title: Controlling Minecraft with Python
+  completion: internal
 - title: TNT
